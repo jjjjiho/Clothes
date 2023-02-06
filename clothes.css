@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+.menu-bar .menu {
+  text-align: right;
+}
+.menu-bar .menu > li {
+  display: inline-block; /*가로 정렬*/
+  width: 200px;
+  text-align: center; /*가운데 정렬*/
+  vertical-align: top; /*메뉴바 위에 정렬*/
+  font-size: 15px;
+}
+.menu-bar .menu > li > a {
+  display: block; /*글자 옆 여백에 클릭 가능*/
+}
+
+.menu-bar .menu > li:hover > .dep { /*마우스 올렸을 때 하위메뉴 표시*/
+  display: block;
+  font-size: 15px;
+  margin: 20px;
+  height: 50px;
+}
+.menu-bar .dep {
+  display: none; /*하위 메뉴 보이지 않게 함*/
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+h2 {
+  font-size: 25px;
+  margin: 20px;  
+}
+.c {
+  text-align: center;
+  font-size: 70px;
+}
+.f {
+  text-align: center;
+  font-size: 70px;
+  margin-left: 150px;
+}
